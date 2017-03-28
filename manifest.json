@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Git Shreked",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*",
+        "http://github.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": ["shrek_outline2.png"]
+}
