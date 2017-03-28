@@ -12,5 +12,6 @@
       "js": ["content.js"]
     }
   ],
-  "web_accessible_resources": ["shrek_outline2.png"]
+  "web_accessible_resources": ["shrek_outline2.png"],
+   "icons": { "32": "shrek_outline2.png" }
 }
